@@ -1,20 +1,48 @@
 body {
-    background-image: url("Images/background.jpeg") ;
+  background-image: url("Images/background.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 
 .block {
-    background-color: aliceblue;
-    padding:30px ;
-    margin: 25px;
-    border: 5px solid rgb(rgba(233, 156, 56, 0.671));
+  background-color: aliceblue;
+  padding: 30px;
+  margin: 25px;
+  border: 5px solid rgb(rgba(233, 156, 56, 0.671));
 }
 
 .topper {
-    color:orangered;
+  color: orangered;
 }
-.navbar-brand{
-    padding:6px;
-    color: white !important;
-    background-color: orangered;
-   
+.navbar-brand {
+  padding: 6px;
+  color: white !important;
+  background-color: orangered;
+}
+/* adjusting text size in about me */
+p {
+  font-size: larger;
+}
+/* Styling for social media */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
