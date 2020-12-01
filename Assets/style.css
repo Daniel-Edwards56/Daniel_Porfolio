@@ -1,19 +1,20 @@
+/* setting a backgroung image throughtout the entire web app */
 body {
   background-image: url("Images/background.jpg");
-  /* background-repeat: no-repeat; */
   background-size: cover;
 }
-
+/* making a background for my containers */
 .block {
   background-color: aliceblue;
   padding: 30px;
   margin: 25px;
   border: 5px solid rgb(rgba(233, 156, 56, 0.671));
 }
-
+/* class for the text of headers on each page */
 .topper {
   color: orangered;
 }
+/* changing the color scheme for my name in navbar */
 .navbar-brand {
   padding: 6px;
   color: white !important;
