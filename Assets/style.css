@@ -47,3 +47,11 @@ p {
   background: #007bb5;
   color: white;
 }
+.fa-github {
+  background: #444;
+  color: #fff;
+}
+.img-thumbnail {
+  max-height: 400px;
+  max-width: 400px;
+}
